@@ -47,6 +47,7 @@ defmodule Generic do
 
   def concat_list_strings([],concat_s), do: {:ok, "Recorrido Finish=>>>>>>  #{concat_s}"}
 
+  def ff(1, result), do: Enum.reverse(result)
 
 
 end
